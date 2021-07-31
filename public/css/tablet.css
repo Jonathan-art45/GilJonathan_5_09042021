@@ -1,0 +1,57 @@
+@media screen and (min-width: 426px)  {
+    :root{
+        font-size: 13px;
+    }
+    .bodyCustom{
+        grid-template-rows: 160px auto auto 150px;
+    }
+    .bodyCustomOrder{
+        display: grid;
+        grid-template-rows: 160px auto 100px 150px;
+    }
+    .openMenu{
+        display: none;
+    }
+    .mainMenu{
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav{
+        justify-self: end;
+    }
+    header li{
+        margin: 20px;
+    }
+    .logo{
+        justify-self: start;
+        margin: 20px;
+    }
+    .sectionPaper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 320px);
+        grid-gap: 20px;
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .paperCustom{
+        height: calc(100% - 50px);
+    }
+    #sectionBasket{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #sectionBasket div{
+        margin-bottom: 20px;
+    }
+    .formFieldset{
+        display: flex;
+    }
+    .order{
+        align-items: center;
+    }
+}

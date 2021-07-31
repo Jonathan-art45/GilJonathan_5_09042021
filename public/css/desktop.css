@@ -1,0 +1,31 @@
+@media screen and (min-width: 769px){
+    :root{
+        font-size: 15px;
+    }
+    .sectionPaper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 280px 280px;
+        grid-gap: 20px;
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .placeFigure{
+        display: flex;
+        flex-direction: row;
+    }
+    .imgCustom{
+        border-radius: 20px 0 0 20px;
+        width: 70%;
+    }
+    .figcaptionCustomProduct{
+        border-radius: 0 20px 20px 0;
+        width: 30%;
+        padding: 15px;
+    }
+    footer{
+    height: 150px;
+    }
+}
