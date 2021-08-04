@@ -175,3 +175,13 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
+#tableau{
+    margin-bottom: 1.5rem;
+}
+#basketNull{
+    text-align: center;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
