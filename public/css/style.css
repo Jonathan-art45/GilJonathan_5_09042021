@@ -193,3 +193,9 @@ footer{
     line-height: 20px;
     text-align: center;
 }
+#directionPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}

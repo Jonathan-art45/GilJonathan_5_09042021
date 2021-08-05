@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f919ce81-5fba-4a23-a712-d5c5edd6c28c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/basket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1626543672201" duration="53616000" />
       <workItem from="1627112142112" duration="4284000" />
       <workItem from="1627569104301" duration="16253000" />
-      <workItem from="1627902671814" duration="30125000" />
+      <workItem from="1627902671814" duration="31233000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en place du projet">
       <created>1627760892258</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628071610613</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mise en place du boutton supprimer">
+      <created>1628182187053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628182187053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +149,7 @@
     <MESSAGE value="Mise en place du projet" />
     <MESSAGE value="modification pour le prix total" />
     <MESSAGE value="modification pour le prix total&#10;mise en place du bouton supprimer" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification pour le prix total&#10;mise en place du bouton supprimer" />
+    <MESSAGE value="mise en place du boutton supprimer" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise en place du boutton supprimer" />
   </component>
 </project>
