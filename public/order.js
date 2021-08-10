@@ -1,13 +1,12 @@
-let articles = JSON.parse(localStorage.getItem('articles'));
-console.log(articles);
+const total = localStorage.getItem("total");
+console.log(total);
+const order = JSON.parse(localStorage.getItem("order"));
+console.log(order);
 
-let quantity = '';
-let cost = '';
-for (let i = 0; i < articles.length ; i++) {
-    quantity = articles[i].quantite;
-    cost = articles[i].prix;
-    let fullcost = cost * quantity;
-}
+const priceOrder = document.getElementById('priceOrder');
+priceOrder.innerHTML = 'Prix total : ' + total + '€';
 
-let idfullcost = document.querySelector('div #fullcost');
-idfullcost.innerHTML = "Prix total : " + fullcost + " €" ;
+const idOrder = document.getElementById('idOrder');
+idOrder.innerHTML = 'Identifiant de la commande : ' + order.orderId ;
+
+localStorage.clear();

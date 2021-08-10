@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f919ce81-5fba-4a23-a712-d5c5edd6c28c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/regex.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +37,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/public/accueil.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/public/regex.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/public/order.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/public/basket.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/order.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/public/product.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1skgzegqMJJwux3MJuNQZmjbZZn" />
@@ -84,7 +86,7 @@
       <workItem from="1626543672201" duration="53616000" />
       <workItem from="1627112142112" duration="4284000" />
       <workItem from="1627569104301" duration="16253000" />
-      <workItem from="1627902671814" duration="31233000" />
+      <workItem from="1627902671814" duration="63120000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en place du projet">
       <created>1627760892258</created>
@@ -114,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628182187053</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajout de la navigation entre la page produit et soit le panier ou l'accueil">
+      <created>1628183299660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628183299660</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +159,7 @@
     <MESSAGE value="modification pour le prix total" />
     <MESSAGE value="modification pour le prix total&#10;mise en place du bouton supprimer" />
     <MESSAGE value="mise en place du boutton supprimer" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en place du boutton supprimer" />
+    <MESSAGE value="Ajout de la navigation entre la page produit et soit le panier ou l'accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la navigation entre la page produit et soit le panier ou l'accueil" />
   </component>
 </project>
