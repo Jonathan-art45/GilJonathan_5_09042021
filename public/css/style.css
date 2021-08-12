@@ -1,51 +1,63 @@
-:root{
+:root {
     font-size: 10px;
 }
-body{
+
+body {
     background-color: #FFE7D6;
 }
-.bodyCustom{
+
+.bodyCustom {
     display: grid;
     grid-template-rows: 150px auto auto 150px;
 }
-.bodyCustomOrder{
+
+.bodyCustomOrder {
     display: grid;
     grid-template-rows: 150px auto 100px 120px;
 }
-h1{
+
+h1 {
     font-family: 'Kaushan Script', cursive;
     font-weight: bold;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-a:hover{
+
+a:hover {
     opacity: 0.90;
 }
-li{
+
+li {
     list-style-type: none;
 }
-section{
+
+section {
     padding: 15px;
 }
-.logo{
+
+.logo {
     grid-area: logo;
     justify-self: center;
     align-self: center;
     cursor: pointer;
 }
-.mainMenu{
+
+.mainMenu {
     display: none;
     cursor: pointer;
     font-size: 1.5rem;
 }
-.caractButton{
-    background-color: #FFE7D6 ;
+
+.caractButton {
+    background-color: #FFE7D6;
     border: none;
     cursor: pointer;
 }
-.closeMenu{
+
+.closeMenu {
     display: none;
     cursor: pointer;
     position: fixed;
@@ -54,24 +66,28 @@ section{
     font-size: 1.5rem;
     color: grey;
 }
-.openMenu{
+
+.openMenu {
     font-size: 2rem;
     color: black;
 }
-header nav{
+
+header nav {
     grid-area: nav;
     justify-self: center;
     text-align: center;
     align-self: center;
     display: flex;
 }
-header p{
+
+header p {
     grid-area: text;
     justify-self: center;
     align-self: center;
     padding: 15px;
 }
-header{
+
+header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -79,46 +95,54 @@ header{
     "logo nav"
     "text text";
 }
+
 @media screen and (max-width: 425px) {
-    .mainMenu{
+    .mainMenu {
         flex-direction: column;
     }
 }
-#sectionPaper{
+
+#sectionPaper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5fr;
     grid-gap: 20px;
 }
-article{
+
+article {
     height: 100%;
 }
-.hoverindex:hover{
+
+.hoverindex:hover {
     box-shadow: 1px 1px 8px grey;
     opacity: 0.95;
     transition: 300ms;
 }
-figure{
+
+figure {
     border: 1px solid #cecece;
     border-radius: 20px;
     box-shadow: 1px 1px 8px #c0bebe;
     height: 100%;
 }
-.figcaptionCustom{
+
+.figcaptionCustom {
     height: 50px;
     display: flex;
     align-items: center;
 }
-figcaption{
+
+figcaption {
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0 0 20px 20px;
 }
-img{
+
+img {
     border-radius: 20px 20px 0 0;
 }
 
-.text-center{
+.text-center {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -132,33 +156,39 @@ img{
     align-items: center;
 }
 
-td,th{
+td, th {
     border: 1px solid grey;
 }
-table{
+
+table {
     border-collapse: collapse;
     width: 100%;
     height: 50px;
 }
-th{
+
+th {
     height: 20px;
 }
-input{
+
+input {
     margin: 5px;
 }
-.titlePaper{
+
+.titlePaper {
     font-size: 1.2rem;
     font-weight: bold;
 }
-#sectionBasket div{
+
+#sectionBasket div {
     margin-bottom: 10px;
 }
-td{
+
+td {
     padding: 5px;
 }
 
 
-footer{
+footer {
     border: 1px solid #c0bebe;
     margin-top: 20px;
     padding: 20px;
@@ -166,26 +196,32 @@ footer{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
 }
-#addbasket{
+
+#addbasket {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.order{
+
+.order {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#tableau{
+
+#tableau {
     margin-bottom: 1.5rem;
 }
-#basketNull{
+
+#basketNull {
     text-align: center;
     font-weight: bold;
 }
-.center{
+
+.center {
     text-align: center;
 }
-.removeArticle{
+
+.removeArticle {
     border: 2px solid darkgray;
     background-color: gainsboro;
     border-radius: 20%;
@@ -193,7 +229,8 @@ footer{
     line-height: 20px;
     text-align: center;
 }
-#directionPage{
+
+#directionPage {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

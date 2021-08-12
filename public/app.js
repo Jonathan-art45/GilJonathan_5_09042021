@@ -17,13 +17,3 @@ function close() {
     mainMenu.style.display = 'none';
     openMenu.style.display = 'flex';
 }
-
-/*
-Faire un appel vers l'api
-    fetch
-
-   Avec les données récupéré, faire une boucle
-   construire la carte en remplacant les valeurs
-   injecter la carte dans le html de accueil
-*/
-

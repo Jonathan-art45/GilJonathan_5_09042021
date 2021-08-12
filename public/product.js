@@ -87,21 +87,3 @@ fetch("http://localhost:3000/api/teddies/" + id)
         })
 
     })
-
-
-/*
-function baskett(){
-    addbasket.addEventListener('click');
-    basket.innerHTML = tr;
-            Faire une carte sans boucle
-        Mettre un bouton dans la carte pour ajouter au panier
-        quand on ajoute au panier
-            cest donc un eventlistener qui écoute le bouton qui va
-            ajouter dans le localstorqge l'id et lq auqntité de nounours'
-
-
-localStorage.setItem('quantity', quantity);
-        localStorage.setItem('id', id );
-        localStorage.setItem('price', price );
-
-}*/

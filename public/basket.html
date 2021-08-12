@@ -42,25 +42,32 @@
         <fieldset class="formIdentity">
             <legend>Informations</legend>
             <label for="firstName">
-                <input type="text" id="firstName" placeholder="Votre prenom" name="prénom" pattern="[A-Za-z]{2,}" required title="Entrez votre prénom">
+                <input type="text" id="firstName" placeholder="Votre prenom" name="prénom" pattern="[A-Za-z]{2,}"
+                       required title="Entrez votre prénom">
             </label>
             <label for="lastName">
-                <input type="text" id="lastName" placeholder="Votre nom" name="nom" pattern="[A-Za-z]{2,}" required title="Entrez votre nom">
+                <input type="text" id="lastName" placeholder="Votre nom" name="nom" pattern="[A-Za-z]{2,}" required
+                       title="Entrez votre nom">
             </label>
             <label for="domicile">
-                <input type="text" id="domicile" placeholder="Domicile" name="adresse" pattern="[a-zA-Z0-9\s]{5,30}" required title="Entrez l'adresse de votre domicile">
+                <input type="text" id="domicile" placeholder="Domicile" name="adresse" pattern="[a-zA-Z0-9\s]{5,30}"
+                       required title="Entrez l'adresse de votre domicile">
             </label>
             <label for="CP">
-                <input type="text" id="CP" placeholder="Code postal" title="format : 12345" name="code postal" pattern="[0-9]{5}" required>
+                <input type="text" id="CP" placeholder="Code postal" title="format : 12345" name="code postal"
+                       pattern="[0-9]{5}" required>
             </label>
             <label for="ville">
-                <input type="text" id="ville" placeholder="Ville" name="ville" pattern="[A-Za-z]{2,}" required title="Entrez votre ville">
+                <input type="text" id="ville" placeholder="Ville" name="ville" pattern="[A-Za-z]{2,}" required
+                       title="Entrez votre ville">
             </label>
             <label for="phoneNumber">
-                <input type="tel" id="phoneNumber" placeholder="Numéro de telephone" name="Numéro de telephone" pattern="0[0-9]{9}" required title="Composez votre numéro de téléphone">
+                <input type="tel" id="phoneNumber" placeholder="Numéro de telephone" name="Numéro de telephone"
+                       pattern="0[0-9]{9}" required title="Composez votre numéro de téléphone">
             </label>
             <label for="email">
-                <input type="email" id="email" placeholder="Votre adresse email" name="email" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-_]+.[a-zA-Z]{2,10}" required title="Entrez votre email">
+                <input type="email" id="email" placeholder="Votre adresse email" name="email"
+                       pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-_]+.[a-zA-Z]{2,10}" required title="Entrez votre email">
             </label>
             <input id="buttonValid" type="submit" value="Valider">
         </fieldset>
