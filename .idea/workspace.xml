@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f919ce81-5fba-4a23-a712-d5c5edd6c28c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,8 @@
       <workItem from="1627112142112" duration="4284000" />
       <workItem from="1627569104301" duration="16253000" />
       <workItem from="1627902671814" duration="69028000" />
-      <workItem from="1629307219232" duration="791000" />
+      <workItem from="1629307219232" duration="813000" />
+      <workItem from="1629309382053" duration="559000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en place du projet">
       <created>1627760892258</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628778585112</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Correction final">
+      <created>1629309298288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629309298288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +181,7 @@
     <MESSAGE value="Ajout de la navigation entre la page produit et soit le panier ou l'accueil" />
     <MESSAGE value="page order terminer" />
     <MESSAGE value="reformatage du code et derniere modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformatage du code et derniere modification" />
+    <MESSAGE value="Correction final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction final" />
   </component>
 </project>
