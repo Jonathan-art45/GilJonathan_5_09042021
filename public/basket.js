@@ -52,8 +52,8 @@ const initBasket = () => {
 }
 
 const validInp = () => {
-    const button = document.getElementById('buttonValid');
-    button.addEventListener('click', function (e) {
+    const button = document.getElementById('myForm');
+    button.addEventListener('submit', function (e) {
         e.preventDefault();
         let firstname = document.getElementById('firstName').value;
         let lastname = document.getElementById('lastName').value;
