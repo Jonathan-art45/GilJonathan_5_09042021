@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f919ce81-5fba-4a23-a712-d5c5edd6c28c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Classeur1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plan_test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/~$Classeur1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/accueil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/basket.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/basket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plan_test_projet_5.numbers" beforeDir="false" afterPath="$PROJECT_DIR$/public/plan_test_projet_5.numbers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/product.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +90,9 @@
       <workItem from="1627569104301" duration="16253000" />
       <workItem from="1627902671814" duration="69028000" />
       <workItem from="1629307219232" duration="813000" />
-      <workItem from="1629309382053" duration="559000" />
+      <workItem from="1629309382053" duration="4356000" />
+      <workItem from="1629453862062" duration="121000" />
+      <workItem from="1629556263484" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="Mise en place du projet">
       <created>1627760892258</created>
@@ -142,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629309298288</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Correction padding pour la page order">
+      <created>1629314238020</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629314238021</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +197,7 @@
     <MESSAGE value="page order terminer" />
     <MESSAGE value="reformatage du code et derniere modification" />
     <MESSAGE value="Correction final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction final" />
+    <MESSAGE value="Correction padding pour la page order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction padding pour la page order" />
   </component>
 </project>

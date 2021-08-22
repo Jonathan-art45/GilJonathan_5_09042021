@@ -4,10 +4,6 @@ console.log(window.location.href);
 console.log(parsedUrl);
 console.log(parsedUrl.searchParams.get("id"));
 let price = '';
-let addbasket = '';
-let name = '';
-let json = '';
-let object = '';
 let contentobject = '';
 
 
@@ -52,7 +48,7 @@ fetch("http://localhost:3000/api/teddies/" + id)
     })
     .then(function (e) {
         console.log(e);
-        addbasket = document.querySelector('#sectioncards button');
+        const addbasket = document.querySelector('#sectioncards button');
         addbasket.addEventListener('click', (e) => {
             e.preventDefault();
 
@@ -77,7 +73,7 @@ fetch("http://localhost:3000/api/teddies/" + id)
                 });
 
             } else {
-                object = {
+                const object = {
                     id: id,
                     quantity: 1
                 };

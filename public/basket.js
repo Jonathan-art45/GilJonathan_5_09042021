@@ -6,9 +6,9 @@ const handleCart = () => {
     initBasket();
     if (articles === null || articles == 0) {
         document.getElementById("basketNull").innerHTML = `<p>Votre panier est vide.</p>`;
-        let supp1 = document.getElementById("tableau");
+        const supp1 = document.getElementById("tableau");
         supp1.style.display = "none";
-        let supp2 = document.querySelector("form .formIdentity");
+        const supp2 = document.querySelector("form .formIdentity");
         supp2.style.display = "none";
 
     } else {

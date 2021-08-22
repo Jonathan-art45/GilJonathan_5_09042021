@@ -7,10 +7,9 @@ function teddies() {
         })
         .then(function (value) {
             console.log(value);
-            let section = document.getElementById("sectionPaper");
-            let cards = '';
+            const section = document.getElementById("sectionPaper");
             for (let i = 0; i < value.length; i++) {
-                cards += `
+                section.innerHTML += `
                     <a id="cardsproduct" href="product.html?id=${value[i]._id}">
                         <article>
                             <figure class="hoverindex">
@@ -23,7 +22,6 @@ function teddies() {
                     </a>
                 `;
             }
-            section.innerHTML = cards;
         })
 }
 
